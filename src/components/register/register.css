@@ -1,0 +1,93 @@
+
+.registerBackground
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background:url(https://static.vecteezy.com/system/resources/previews/005/099/465/large_2x/cup-coffee-with-laptop-cell-phone-diary-with-pen-white-background-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.register-div {
+    width: auto;
+    margin-top: 100px;
+}
+.RegisterTitle{
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 25px;
+    text-align: start;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.form-register {
+    background-color: rgba(12, 1, 1, 0.651);
+    box-shadow: 42px 31px 25px 12px rgba(133, 5, 5, 0.363);
+    margin: auto;
+    width: 350px;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.form-register>label {
+    margin: 10px 25px ;
+    text-align: start;
+    color: rgb(255, 255, 255);
+}
+
+.text{
+    color: rgb(255, 255, 255);
+}
+/* .img{
+} */
+/* .imgLogin {
+    margin-left: 50px;
+    width: 400px;
+    border-radius: 150px;
+    box-shadow: 42px 31px 25px 12px rgba(13, 35, 163, 0.66);
+} */
+
+.inputForm {
+    align-items: center;
+    background-color: rgba(16, 133, 235, 0);
+    color: rgb(255, 254, 254);
+    border:rgba(255, 255, 255, 0.836) groove;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin: 0 25px;
+
+
+
+}
+
+.btnRegister {
+    border-radius: 20px;
+    cursor: pointer;
+    height: 30px;
+    width: auto;
+    margin: 15px 25px 0;
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: rgba(184, 9, 9, 0.61);
+}
+.forget{
+    margin:  15px; 
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+.redesRegister {
+    width: auto;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(184, 9, 9, 0.61)
+}
+.redesRegister *{
+    margin-left: 15px;
+}
+
+/* .form-login > label{
+ } */

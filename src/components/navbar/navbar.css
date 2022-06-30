@@ -1,0 +1,90 @@
+.navbarLogin {
+    background-color: rgba(0, 165, 115, 0.726);
+    width: auto;
+    display: flex;
+}
+
+.navbarRegister {
+    background-color: rgba(3, 3, 3, 0.514);
+    width: auto;
+    display: flex;
+}
+
+.navbarHome {
+    background-color: rgba(12, 10, 10, 0.37);
+    width: auto;
+    display: flex;
+}
+
+
+.logo {
+    width: 40px;
+    border-radius: 20px;
+}
+
+.navBtn {
+    margin-left: 400px;
+}
+
+.search {
+    display: flex;
+    float: right;
+}
+.btnSrch{
+    margin-top: 2px;
+
+    border: none;
+    background-color: white;
+    cursor: pointer;
+
+}
+.srch {
+    margin-top: 2px;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 35px;
+    margin-left: 40px;
+    border: none;
+}
+
+.NewsBtn {
+    margin-top: 5px;
+    background-color: rgba(16, 133, 235, 0);
+    color: rgb(255, 255, 255);
+    border-left:  0;
+    border-right:  0;
+    
+    /* background-color: rgba(3, 3, 3, 0.521); */
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 25px;
+
+}
+
+.registerBtn {
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(7, 139, 99, 0);
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border-left: 0;
+    border-right: 0;
+    margin-left: 30px;
+
+}
+
+.LoginBtn {
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+
+    background-color: rgba(184, 9, 9, 0);
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border-left: 0;
+    border-right: 0;
+    margin-left: 30px;
+
+}

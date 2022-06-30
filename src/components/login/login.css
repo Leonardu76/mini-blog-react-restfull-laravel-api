@@ -1,0 +1,85 @@
+
+.loginBackground
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background:url(https://thumbs.dreamstime.com/z/laptop-cotton-branch-white-table-flat-lay-top-view-minimal-bloger-home-desk-workspace-eucalyptus-background-office-140372313.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Login-div {
+    width: auto;
+    margin-top: 100px;
+}
+.Logintitle{
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 25px;
+    text-align: start;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.form-login {
+    background-color: rgba(7, 139, 100, 0.671);
+    box-shadow: 42px 31px 25px 12px rgba(8, 115, 122, 0.479);
+    margin: auto;
+    width: 350px;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.form-login>label {
+
+    margin: 10px 25px ;
+    text-align: start;
+    color: rgb(255, 255, 255);
+}
+
+.text{
+    color: rgb(0, 0, 0);
+}
+
+
+.inputForm {
+    align-items: center;
+    background-color: rgba(16, 133, 235, 0);
+    color: rgb(255, 255, 255);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin: 0 25px;
+
+
+
+}
+
+.btnLogin {
+    border-radius: 20px;
+    cursor: pointer;
+    height: 30px;
+    width: auto;
+    margin: 15px 25px 0;
+    color: rgb(0, 0, 0);
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+.forget{
+    margin:  15px; 
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+
+}
+.redesLogin {
+    width: auto;
+    font-size: 20px;
+    color: rgb(7, 92, 18);
+    background-color: rgb(255, 255, 255);
+}
+.redesLogin *{
+    margin-left: 15px;
+}
+
+/* .form-login > label{
+ } */
