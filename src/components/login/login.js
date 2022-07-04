@@ -16,10 +16,10 @@ const login = () => {
      <h1 className='Logintitle'>Login</h1>
  
     <label><b>Email</b></label> 
-    <input className='inputForm' type="email" placeholder='Digite seu email' />
+    <input className='inputForm' type="email"  />
 
     <label><b>Senha</b></label> 
-    <input className='inputForm' type="password" placeholder='Digite sua senha' />
+    <input className='inputForm' type="password"  />
 
     <button className='btnLogin' type='submit'>Login</button>
     <p className='text'>Login com redes sociais</p>

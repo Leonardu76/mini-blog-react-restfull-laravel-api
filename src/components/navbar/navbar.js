@@ -40,8 +40,8 @@ const Navbar = (props) => {
               <div>
                 <Link to='/login'> <button className='NewsBtn'><b>Login</b></button> </Link>
                 <Link to='/register'> <button className='NewsBtn'><b>Registrar-se</b></button></Link>
-                <div className='search'>
-                  <input className='srch' type="text" placeholder='Pesquise aqui' />
+                <div className='searchDiv'>
+                  <input className='srchInput' type="text" placeholder='Pesquise aqui' />
                   <button className='btnSrch'><FaSearch /></button>
                 </div>
 

@@ -1,5 +1,5 @@
 .navbarLogin {
-    background-color: rgba(0, 165, 115, 0.726);
+    background-color: rgb(0, 165, 115);
     width: auto;
     display: flex;
 }
@@ -11,7 +11,7 @@
 }
 
 .navbarHome {
-    background-color: rgba(12, 10, 10, 0.37);
+    background-color: rgb(0, 0, 0);
     width: auto;
     display: flex;
 }
@@ -26,19 +26,22 @@
     margin-left: 400px;
 }
 
-.search {
+.searchDiv {
     display: flex;
     float: right;
 }
 .btnSrch{
     margin-top: 2px;
-
     border: none;
     background-color: white;
     cursor: pointer;
+    border-radius: 0 10px 10px 0;
+
 
 }
-.srch {
+.srchInput {
+    border-radius: 10px 0 0 10px;
+
     margin-top: 2px;
     background-color: rgb(255, 255, 255);
     width: 300px;
@@ -49,13 +52,15 @@
 
 .NewsBtn {
     margin-top: 5px;
-    background-color: rgba(16, 133, 235, 0);
+    background-color: rgba(187, 4, 4, 0);
+    border: white 2px groove;
+
     color: rgb(255, 255, 255);
     border-left:  0;
     border-right:  0;
     
     /* background-color: rgba(3, 3, 3, 0.521); */
-    width: 100px;
+    width: 120px;
     height: 30px;
     cursor: pointer;
     margin-left: 25px;
@@ -66,9 +71,10 @@
     margin-top: 5px;
     color: rgb(255, 255, 255);
     background-color: rgba(7, 139, 99, 0);
-    width: 100px;
+    width: 120px;
     height: 30px;
     cursor: pointer;
+    border: rgb(255, 255, 255) 3px groove;
     border-left: 0;
     border-right: 0;
     margin-left: 30px;
@@ -78,9 +84,9 @@
 .LoginBtn {
     margin-top: 5px;
     color: rgb(255, 255, 255);
-
+    border: rgb(255, 255, 255) 3px groove;
     background-color: rgba(184, 9, 9, 0);
-    width: 100px;
+    width: 120px;
     height: 30px;
     cursor: pointer;
     border-left: 0;
