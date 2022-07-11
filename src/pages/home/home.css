@@ -7,7 +7,12 @@ margin-top: 100px;
 margin-left: 80px;
 
 }
-
+.contentPost{
+    max-width: 40ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 .imgPost{
     width: 240px;
     float: left;

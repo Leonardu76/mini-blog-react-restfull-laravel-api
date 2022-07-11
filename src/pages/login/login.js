@@ -1,6 +1,6 @@
 import React from 'react'
 import './login.css'
-import Navbar from '../navbar/navbar'
+import Navbar from '../../components/navbar/navbar'
 
 import { FaFacebook, FaLinkedin, FaGoogle } from 'react-icons/fa';
 
