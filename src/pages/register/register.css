@@ -9,17 +9,20 @@
     background-size: cover;
 }
 .errResponse{
-    background-color: rgba(250, 2, 2, 0.63);
+    background-color: rgb(250, 2, 2);
     color: rgb(255, 249, 249);
     width: 350px;
+    font-size: larger;
     margin: auto;
 
 
 }
 .sucResponse{
-    background-color: rgba(17, 187, 11, 0.63);
+    background-color: rgba(12, 129, 8, 0.986);
     color: rgb(255, 255, 255);
     width: 350px;
+    font-size: larger;
+
     margin: auto;}
     
 .register-div {
