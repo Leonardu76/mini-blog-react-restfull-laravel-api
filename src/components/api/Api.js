@@ -7,7 +7,7 @@ export const GetUsuarios  = async () => {
     // const [data, setData] = useState
 
 
-    fetch("http://localhost/api/index.php")
+    fetch("https://bloggphp.herokuapp.com/")
     .then((response) => response.json())
     .then((responseJson) => (
         console.log(responseJson)

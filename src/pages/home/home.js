@@ -12,7 +12,7 @@ const home = () => {
     const GetPosts  = async () => {
     
     
-        fetch("http://localhost/api/showPosts.php")
+        fetch("https://bloggphp.herokuapp.com/showPosts.php")
         .then((response) => response.json())
         .then((responseJson) => (
             setData(responseJson.posts)
