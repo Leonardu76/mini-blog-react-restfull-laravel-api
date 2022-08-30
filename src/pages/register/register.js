@@ -37,7 +37,7 @@ const Register = () => {
     console.log(nome, email, senha)
     e.preventDefault()
 
-    await fetch("http://localhost/api/cadastrar.php/", {
+    await fetch("https://bloggphp.herokuapp.com/cadastrar.php/", {
       method: 'POST',
       headers: {
     'Content-Type': 'application/json'
