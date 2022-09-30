@@ -20,7 +20,7 @@ const login = () => {
   const GetUser  = async e =>{
     e.preventDefault()
 
-   let reqs =  await fetch("http://localhost/api/login.php", {
+   let reqs =  await fetch("https://blogg-api.000webhostapp.com/login.php", {
       method: 'POST',
       headers: {
     'Content-Type': 'application/json'
