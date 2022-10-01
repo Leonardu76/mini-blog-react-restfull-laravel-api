@@ -1,4 +1,4 @@
-.navbarLogin {
+.navbarLogin, .navbarHome {
     background-color: rgb(0, 165, 115);
     width: auto;
     display: flex;
@@ -10,11 +10,11 @@
     display: flex;
 }
 
-.navbarHome {
+/* .navbarHome {
     background-color: rgb(0, 0, 0);
     width: auto;
     display: flex;
-}
+} */
 
 
 .logo {
@@ -50,7 +50,7 @@
     border: none;
 }
 
-.NewsBtn {
+/* .NewsBtn {
     margin-top: 5px;
     background-color: rgba(187, 4, 4, 0);
     border: white 2px groove;
@@ -59,15 +59,14 @@
     border-left:  0;
     border-right:  0;
     
-    /* background-color: rgba(3, 3, 3, 0.521); */
     width: 120px;
     height: 30px;
     cursor: pointer;
     margin-left: 25px;
 
-}
+} */
 
-.registerBtn {
+.registerBtn, .NewsBtn {
     margin-top: 5px;
     color: rgb(255, 255, 255);
     background-color: rgba(7, 139, 99, 0);

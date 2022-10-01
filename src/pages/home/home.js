@@ -1,5 +1,7 @@
 import React from 'react'
 import Navbar from '../../components/navbar/navbar'
+import Side from '../../components/side/side'
+
 import './home.css'
 import { FaCalendarAlt } from 'react-icons/fa';
 import {useEffect} from 'react'
@@ -12,7 +14,7 @@ const home = () => {
     const GetPosts  = async () => {
     
     
-        fetch("https://blogg-api.000webhostapp.com/showPosts.php")
+        fetch("https://bloggphp.herokuapp.com/showPosts.php")
         .then((response) => response.json())
         .then((responseJson) => (
             setData(responseJson.posts)
@@ -34,15 +36,21 @@ const home = () => {
             <Navbar  url={url}/>
             <h1 className='title'>Mini blog</h1>
 
-            {Object.values(data).map(post => (
-
-   <div className='PostDiv'>
-    <div className='posts'>
-        <div className='cardTop'>
-            <b>{post.titulo}</b> <hr />
-            <b>De: {post.autor}</b>
+        <div className='post-div'>
+              <div className='sider'>
+        <Side/>
 
         </div>
+            {Object.values(data).map(post => (
+
+//    <div className='Post'>
+        
+    <div className='posts'>
+        <div className='cardTop'>
+            <b className='card-top-titulo'>{post.titulo}</b> <hr />
+            <b className='card-top-titulo'>De: {post.autor}</b>
+            </div>
+
         <div className='cardBody'> 
 
          <img className='imgPost' src={post.img_post} alt="" />
@@ -52,14 +60,15 @@ const home = () => {
             <hr />
             </div>
             <div className='cardBottom'>   
-                    <p><FaCalendarAlt/><b>{post.created_at} </b></p></div>
-                </div>
-            </div>
+                    <p className='card-bottom-calendar'><FaCalendarAlt/><b>{post.created_at} </b></p></div>
+             </div>
 
    
 ))}
 
 
+        </div>
+      
         </div>
 
     )

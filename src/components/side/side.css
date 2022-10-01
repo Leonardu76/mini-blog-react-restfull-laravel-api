@@ -1,0 +1,25 @@
+.card-side{
+width: 450px;
+margin-left: 800px;
+
+
+/* margin-left: 900px; */
+}
+.sider{
+    height: 0;
+
+}
+.card-topo{
+    background-color: rgb(0, 165, 115);
+    color: white;
+    padding-left: 35px;
+    text-align: start;
+}
+
+.card-body ul{
+    text-align: start;
+    color: white;
+
+    background-color: rgb(0, 165, 115);
+    list-style: none;
+}
