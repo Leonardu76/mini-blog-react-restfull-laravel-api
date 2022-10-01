@@ -12,7 +12,7 @@ body{
  margin-left: 80px;
 }
 .contentPost{
-    color: white;
+    color: rgb(0, 165, 115);
     max-width: 40ch;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -26,7 +26,6 @@ body{
 
 }
 .posts{
-    background-color: rgb(0, 165, 115);
 
     box-shadow: 4px 31px 25px 12px rgba(0, 11, 12, 0.479);
     text-align: start;
@@ -39,8 +38,8 @@ body{
 
 .btnOpen{
     margin-left: 320px;
-    color: rgb(0, 165, 115);
-    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 165, 115);
     border: none;
     width: 100px;
     height: 30px;
@@ -51,14 +50,14 @@ body{
     
 }
 .card-top-titulo{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 165, 115);
     text-transform: uppercase;
     margin-left: 15px;
 
 }
 
 .cardBody{
-    color: rgb(0, 0, 0);
+    color: rgb(0, 165, 115);
 }
 
 .cardBottom{
@@ -75,5 +74,5 @@ body{
     font-family: 'Space Mono', cursive;
 }
 .card-bottom-calendar{
-    color:white
+    color: rgb(0, 165, 115);
 }

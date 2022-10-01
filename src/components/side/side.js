@@ -1,10 +1,9 @@
 import React from 'react'
 import './side.css'
-import  { useState } from 'react'
+// import  { useState } from 'react'
 
 
 const Side = () => {
-    const [data, setData] = useState([])
 
     return (
         <div className='card-side'>

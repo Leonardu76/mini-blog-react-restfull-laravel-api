@@ -1,6 +1,6 @@
 import './login.css'
 import React, { useState } from "react";
-import {useEffect} from 'react'
+// import {useEffect} from 'react'
 
 import Navbar from '../../components/navbar/navbar'
 
@@ -8,7 +8,7 @@ import { FaFacebook, FaLinkedin, FaGoogle } from 'react-icons/fa';
 
 const login = () => {
   const url = 'login'
-  const [data, setData] = useState([])
+  const [data] = useState([])
   
   const [email, setEmail] = useState()
   const [senha, setSenha] = useState()
