@@ -25,7 +25,10 @@ const Side = () => {
                       <hr /> <li>rede</li>
                       <hr /> <li>rede</li>
                       <hr /> <li>rede</li>
+                      <hr /> <li>rede</li>
+                      <hr /> <li>rede</li>
                       <hr />
+
                      
                       </ul>
                     </div>
