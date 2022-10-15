@@ -59,7 +59,7 @@ const PostsByCategoria = () => {
 
 //    <div className='Post'>
         <>
-            <h1 className='title'>{post.titulo}</h1>
+            <h1 className='title'>f{post.titulo}</h1>
     <div className='posts'>
         <div className='cardTop'>
             <b className='card-top-titulo'>{post.titulo}</b> <hr />
