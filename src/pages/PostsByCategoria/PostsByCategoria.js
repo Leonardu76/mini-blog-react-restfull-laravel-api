@@ -4,31 +4,31 @@ import './PostsByCategoria.css'
 import { FaCalendarAlt } from 'react-icons/fa';
 import {useEffect} from 'react'
 import  { useState } from 'react'
-import { useParams } from "react-router-dom"
+// import { useParams } from "react-router-dom"
 
 
 
 const PostsByCategoria = () => {
     const [data, setData] = useState([])
     // const [nome, setNome] = useState()
-    const { id } = useParams()
+    // const { id } = useParams()
 
 
-    const GetId  = async e =>{
+    // const GetId  = async e =>{
 
-        e.preventDefault()
+    //     e.preventDefault()
     
-       let reqs =  await fetch("https://bloggphp.herokuapp.com/showPosts.php", {
-          method: 'POST',
-          headers: {
-        'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({id})
-        })
-        const ret = await reqs.json();
-        console.log(ret)
+    //    let reqs =  await fetch("https://bloggphp.herokuapp.com/showPosts.php", {
+    //       method: 'POST',
+    //       headers: {
+    //     'Content-Type': 'application/json'
+    //       },
+    //       body: JSON.stringify({id})
+    //     })
+    //     const ret = await reqs.json();
+    //     console.log(ret)
 
-    }
+    // }
 
     const GetPosts  = async () => {
     
@@ -59,7 +59,7 @@ const PostsByCategoria = () => {
 
 //    <div className='Post'>
         <>
-            <h1 className='title'>{post.titulo}</h1>
+            <h1 className='title'>f{post.titulo}</h1>
     <div className='posts'>
         <div className='cardTop'>
             <b className='card-top-titulo'>{post.titulo}</b> <hr />
