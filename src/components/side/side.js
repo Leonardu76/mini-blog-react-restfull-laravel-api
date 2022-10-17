@@ -8,7 +8,7 @@ import { Link } from "react-router-dom"
 
 const Side = () => {
     const [data, setData] = useState([])
-    const [error, setError] = useState()
+    const [, setError] = useState()
 
     const GetCategorias  = async () => {
     

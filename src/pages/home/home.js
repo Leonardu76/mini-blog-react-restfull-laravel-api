@@ -7,11 +7,10 @@ import { FaCalendarAlt } from 'react-icons/fa';
 import {useEffect} from 'react'
 import  { useState } from 'react'
 
-var data = new Date();
 
 const home = () => {
     const [data, setData] = useState([])
-    const [error, setError] = useState()
+    const [, setError] = useState()
 
     const GetPosts  = async () => {
     

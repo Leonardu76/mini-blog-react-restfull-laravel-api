@@ -10,9 +10,9 @@ import { useParams } from "react-router-dom"
 
 const PostsByCategoria = () => {
     const [categoria, setCategoria] = useState([])
-    const [data, setData] = useState([])
+    // const [data, setData] = useState([])
     const [postagens, setPostagens] = useState([])
-    const [error, setError] = useState()
+    const [, setError] = useState()
     const { id } = useParams()
 
     // const [nome, setNome] = useState()
