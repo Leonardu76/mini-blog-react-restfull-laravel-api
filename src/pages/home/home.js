@@ -42,7 +42,7 @@ const home = () => {
     return (
         <div>
             <Navbar  url={url}/>
-            <h1 className='title'>Mini blog</h1>
+            <h1 className='title'>Blog</h1>
 
         <div className='post-div'>
               <aside className='sider'>
