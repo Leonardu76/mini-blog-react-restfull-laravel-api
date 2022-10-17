@@ -7,21 +7,29 @@ import { FaCalendarAlt } from 'react-icons/fa';
 import {useEffect} from 'react'
 import  { useState } from 'react'
 
+var data = new Date();
 
 const home = () => {
     const [data, setData] = useState([])
+    const [error, setError] = useState()
 
     const GetPosts  = async () => {
     
     
-        fetch("https://bloggphp.herokuapp.com/showPosts.php")
-        .then((response) => response.json())
-        .then((responseJson) => (
-            setData(responseJson.posts)
-            ));
-            
-          
-          
+        fetch("https://lavapi.000webhostapp.com/api/posts")
+        .then(response => {
+            if (response.ok) {
+                return response.json()
+        }
+            throw response;
+        })
+         .then(data => {
+            setData(data)
+         })
+        .catch(error => {
+            console.error("Error fetcj data: ", error)
+            setError(error);
+         } ) 
         }
 
    useEffect(() => {
@@ -30,6 +38,7 @@ const home = () => {
 
     const url = 'home'
 
+    console.log(Object.values(data))
 
     return (
         <div>
@@ -41,11 +50,13 @@ const home = () => {
         <Side/>
 
         </aside>
-            {Object.values(data).map(post => (
+        {/* {data.map((post) => */}
+             {Object.values(data).map(post => ( 
 
 //    <div className='Post'>
         
     <div className='posts'>
+
         <div className='cardTop'>
             <b className='card-top-titulo'>{post.titulo}</b> <hr />
             <b className='card-top-titulo'>De: {post.autor}</b>
@@ -53,7 +64,7 @@ const home = () => {
 
         <div className='cardBody'> 
 
-         <img className='imgPost' src={post.img_post} alt="" />
+         <img className='imgPost' src={post.image} alt="" />
             <p className='contentPost'>{post.conteudo}.</p>
           
             <button className='btnOpen'>Ler</button>
@@ -63,8 +74,8 @@ const home = () => {
                     <p className='card-bottom-calendar'><FaCalendarAlt/><b>{post.created_at} </b></p></div>
              </div>
 
-   
 ))}
+
 
 
         </div>
