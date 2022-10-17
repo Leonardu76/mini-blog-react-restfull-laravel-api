@@ -7,11 +7,10 @@ import { FaCalendarAlt } from 'react-icons/fa';
 import {useEffect} from 'react'
 import  { useState } from 'react'
 
-var data = new Date();
 
 const home = () => {
     const [data, setData] = useState([])
-    const [error, setError] = useState()
+    const [, setError] = useState()
 
     const GetPosts  = async () => {
     
@@ -43,7 +42,7 @@ const home = () => {
     return (
         <div>
             <Navbar  url={url}/>
-            <h1 className='title'>Mini blog</h1>
+            <h1 className='title'>Blog</h1>
 
         <div className='post-div'>
               <aside className='sider'>
